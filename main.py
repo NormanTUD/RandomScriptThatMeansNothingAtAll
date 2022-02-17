@@ -40,7 +40,7 @@ username = args.username
 password = args.password
 home_network_name = args.home_network_name
 
-random_data = ["IAK", "IMC", "NK", "OPS", "SDE", "VDR", "Verwaltung", "SD"]
+random_data = ["IAK", "IMC", "NK", "OPS", "SD", "SDE", "VDR", "Verwaltung"]
 random_index = random_data.index(args.abteilung)
 
 def is_at_home ():
